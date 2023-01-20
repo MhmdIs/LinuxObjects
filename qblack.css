@@ -1,6 +1,6 @@
 :root {
     --tridactyl-bg: black;
-    --tridactyl-fg: gray;
+    --tridactyl-fg: lightgray;
     --tridactyl-scrollbar-color: #131 var(--tridactyl-fg);
 }
 
@@ -15,7 +15,6 @@
 
 :root #tridactyl-colon::before {
     content: "> ";
-    background: var(--tridactyl-bg);
 }
 
 :root #completions .focused,
