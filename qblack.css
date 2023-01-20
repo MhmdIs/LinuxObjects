@@ -2,6 +2,9 @@
     --tridactyl-bg: black;
     --tridactyl-fg: white;
     --tridactyl-scrollbar-color: #131 var(--tridactyl-fg);
+    --tridactyl-cmdl-fg: #ffffff;
+    --tridactyl-cmdl-bg: #000000;
+    --tridactyl-font-family: "Firacode Nerd Font";
 }
 
 :root.TridactylOwnNamespace {
