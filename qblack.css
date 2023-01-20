@@ -1,6 +1,6 @@
 :root {
     --tridactyl-bg: black;
-    --tridactyl-fg: white;
+    --tridactyl-fg: gray;
     --tridactyl-scrollbar-color: #131 var(--tridactyl-fg);
 }
 
@@ -15,6 +15,7 @@
 
 :root #tridactyl-colon::before {
     content: "> ";
+    background: var(--tridactyl-bg);
 }
 
 :root #completions .focused,
@@ -26,7 +27,7 @@
 :root #cmdline_iframe {
     position: fixed !important;
     bottom: unset;
-    bottom: 0% !important;
+    top: 0% !important;
     left: 0% !important;
     box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 15px !important;
     opacity: 0.9;
