@@ -1,7 +1,7 @@
 :root {
     --tridactyl-bg: black;
     --tridactyl-fg: white;
-    --tridactyl-scrollbar-color: #131 var(--tridactyl-fg);
+    --tridactyl-scrollbar-color: #131 var(--tridactyl-bg);
     --tridactyl-cmdl-fg: #ffffff;
     --tridactyl-cmdl-bg: #000000;
     --tridactyl-font-family: "Firacode Nerd Font";
@@ -9,7 +9,7 @@
 
 :root.TridactylOwnNamespace {
     scrollbar-color: var(--tridactyl-scrollbar-color);
-    scrollbar-width: thin;
+    scrollbar-width: none;
 }
 
 :root #completions .sectionHeader {
