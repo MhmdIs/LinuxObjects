@@ -1,0 +1,24 @@
+:root {
+    --tridactyl-bg: #1b1b1b;
+    --tridactyl-fg: #e1e1e1;
+    --tridactyl-cmdl-fg: #e1e1e1;
+    --tridactyl-cmdl-bg: #1b1b1b;
+    --tridactyl-font-family: "Firacode Nerd Font";
+}
+
+:root #completions .sectionHeader {
+    display: none;
+}
+
+:root #tridactyl-colon::before {
+    content: " >> ";
+}
+
+:root #cmdline_iframe {
+    position: fixed !important;
+    bottom: auto;
+    bottom: 0% !important;
+    left: 0% !important;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 0px !important;
+    opacity: 0.9;
+}
