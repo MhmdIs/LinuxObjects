@@ -14,7 +14,7 @@
 }
 
 :root #tridactyl-colon::before {
-    content: " > ";
+    content: " >> ";
 }
 
 :root #completions .focused,
