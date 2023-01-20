@@ -13,7 +13,7 @@
 
     --tridactyl-cmplt-font-family: "Firacode Nerd Font";
     --tridactyl-cmplt-fg: var(--tridactyl-cmdl-fg);
-    --tridactyl-cmplt-bg: rgba(0, 0, 0, 0.9);
+    --tridactyl-cmplt-bg: #1b1b1b22;
     --tridactyl-cmplt-border-top: 1px solid var(--tridactyl-cmdl-bg);
 
     --tridactyl-url-fg: var(--tridactyl-cmdl-fg);
@@ -22,27 +22,27 @@
     --tridactyl-of-fg: #e1e1e1;
     --tridactyl-of-bg: #1b1b1b;
 
-    --tridactyl-highlight-box-bg: black;
+    --tridactyl-highlight-box-bg: #1b1b1b;
     --tridactyl-highlight-box-fg: var(--tridactyl-fg);
 
     /*custom theme variables*/
-    --focused-prefix-color: black;
-    --focused-border-color: white;
+    --focused-prefix-color: hsl(0, 0%, 11%);
+    --focused-border-color: #e1e1e1;
 
     --tridactyl-hintspan-fg: #88ff00;
-    --tridactyl-hintspan-bg: black;
+    --tridactyl-hintspan-bg: #1b1b1b;
     --tridactyl-hintspan-font-family: "Firacode Nerd Font";
 
     --tridactyl-hint-active-fg: #333;
     --tridactyl-hint-active-bg: #88ff00;
     --tridactyl-hint-active-outline: 1px solid #000;
 
-    --tridactyl-hint-bg: rgba(0, 0, 0, 0.25);
+    --tridactyl-hint-bg: rgba(27, 27, 27, 0.25);
     --tridactyl-hint-outline: 2px solid var(--tridactyl-hintspan-bg);
 }
 
 :root #completions .focused {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgb(225, 225, 225);
 }
 
 :root #completions .focused .prefix {
@@ -70,12 +70,12 @@
 /* ### newtab ### */
 
 :root.TridactylOwnNamespace code {
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(225, 225, 225, 0.1);
     border-top: 1px solid var(--tridactyl-fg);
 }
 
 :root.TridactylOwnNamespace ul {
-    background-color: rgba(0, 0, 0, 0.55);
+    background-color: rgba(27, 27, 27, 0.55);
     border-radius: 10px;
     border-top: 1px solid var(--tridactyl-fg);
     padding-top: 10px;
@@ -83,7 +83,7 @@
 }
 
 :root.TridactylOwnNamespace .spoiler > h2 + ul {
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: rgba(225, 225, 225, 0.05);
     border-radius: 10px;
     border-left: 1px solid var(--tridactyl-fg);
     border-right: 1px solid var(--tridactyl-fg);
@@ -101,6 +101,6 @@
     bottom: unset;
     top: 0% !important;
     left: 0% !important;
-    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 15px !important;
+    box-shadow: rgba(27, 27, 27, 0.5) 0px 0px 15px !important;
     opacity: 0.9;
 }
