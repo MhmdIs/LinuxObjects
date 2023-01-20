@@ -1,8 +1,8 @@
 :root {
-    --tridactyl-bg: black;
-    --tridactyl-fg: white;
-    --tridactyl-cmdl-fg: #ffffff;
-    --tridactyl-cmdl-bg: #000000;
+    --tridactyl-bg: 1b1b1b;
+    --tridactyl-fg: 1e1e1e;
+    --tridactyl-cmdl-fg: #1e1e1e;
+    --tridactyl-cmdl-bg: #1b1b1b;
     --tridactyl-font-family: "Firacode Nerd Font";
 }
 
