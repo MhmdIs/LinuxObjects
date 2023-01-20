@@ -6,23 +6,12 @@
     --tridactyl-font-family: "Firacode Nerd Font";
 }
 
-:root.TridactylOwnNamespace {
-    scrollbar-color: var(--tridactyl-bg);
-    scrollbar-width: none;
-}
-
 :root #completions .sectionHeader {
     display: none;
 }
 
 :root #tridactyl-colon::before {
     content: " >> ";
-}
-
-:root #completions .focused,
-:root #completions .focused .url {
-    background: var(--tridactyl-bg);
-    text-decoration: underline;
 }
 
 :root #cmdline_iframe {
